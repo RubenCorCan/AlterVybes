@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTER VYBE'S</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <style>
+        .screen-black {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 10000;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+        .screen-black.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        body.hidden {
+            overflow: hidden;
+            visibility: hidden;
+        }
+        body.visible {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="sticky-header">
+        <div class="logo">
+            <h1>ALTER VYBE'S</h1>
+        </div>
+        <a href="Index.html">
+            <img class="logo-img" src="img/2ºTanda_Ruben-removebg-preview.png" alt="Alter Vybe'S logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paginas/shop.html">Tienda</a></li>
+                <li><a href="paginas/Community.html">Comunidad</a></li>
+                <li><a href="paginas/blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <section>
+            <div class="hero-text">
+                <h2>Vibra con el cambio</h2>
+                <p>Explora nuestra colección y redefine tu estilo.</p>
+            </div>
+            <a href="paginas/shop.html" class="cta">Explorar Colección</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ALTER VYBE'S</p>
+    </footer>
+
+</body>
+</html>
